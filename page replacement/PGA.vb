@@ -3,6 +3,7 @@
 
 Public Class Form1
     Inherits System.Windows.Forms.Form
+
     ' Array to store the page reference string
     Dim pageReference() As Integer
 
@@ -49,7 +50,7 @@ Public Class Form1
         lblOptimal.Text = "Optimal Page Faults: " & faults
     End Sub
 
-    ' allows manual typing of page reference string
+    ' Validates user inputs and converts the page string to an integer array
     Private Function ValidateInputs() As Boolean
         If txtFrames.Text = "" Then
             MessageBox.Show("Enter the number of frames.")
@@ -97,10 +98,10 @@ Public Class Form1
                 End If
                 queue.Enqueue(page)
                 pageFaults += 1
-                lst.Items.Add("Page " & page & ": (Miss) -> " & String.Join(" ", queue))
+                lst.Items.Add(String.Format("Page {0,2}: (Miss) -> {1}", page, String.Join(" ", queue)))
                 rtb.AppendText("(Miss) Added to frame: " & page & vbCrLf)
             Else
-                lst.Items.Add("Page " & page & ": (Hit) -> " & String.Join(" ", queue))
+                lst.Items.Add(String.Format("Page {0,2}: (Hit)  -> {1}", page, String.Join(" ", queue)))
                 rtb.AppendText("(Hit) Already in memory." & vbCrLf)
             End If
 
@@ -126,7 +127,7 @@ Public Class Form1
             If cache.Contains(page) Then
                 cache.Remove(page)
                 cache.Add(page)
-                lst.Items.Add("Page " & page & ": (Hit) -> " & String.Join(" ", cache))
+                lst.Items.Add(String.Format("Page {0,2}: (Hit)  -> {1}", page, String.Join(" ", cache)))
                 rtb.AppendText("(Hit) Moved to most recent" & vbCrLf)
             Else
                 If cache.Count = frames Then
@@ -136,7 +137,7 @@ Public Class Form1
                 End If
                 cache.Add(page)
                 pageFaults += 1
-                lst.Items.Add("Page " & page & ": (Miss) -> " & String.Join(" ", cache))
+                lst.Items.Add(String.Format("Page {0,2}: (Miss) -> {1}", page, String.Join(" ", cache)))
                 rtb.AppendText("(Miss) Added to memory" & vbCrLf)
             End If
 
@@ -185,10 +186,10 @@ Public Class Form1
                     rtb.AppendText("Removed: " & toRemove & " Added: " & page & vbCrLf)
                 End If
                 pageFaults += 1
-                lst.Items.Add("Page " & page & ": (Miss) -> " & String.Join(" ", memory))
+                lst.Items.Add(String.Format("Page {0,2}: (Miss) -> {1}", page, String.Join(" ", memory)))
                 rtb.AppendText("(Miss) Added to memory" & vbCrLf)
             Else
-                lst.Items.Add("Page " & page & ": (Hit) -> " & String.Join(" ", memory))
+                lst.Items.Add(String.Format("Page {0,2}: (Hit)  -> {1}", page, String.Join(" ", memory)))
                 rtb.AppendText("(Hit) Page is already present" & vbCrLf)
             End If
 
