@@ -1,4 +1,4 @@
-# <img src="PRAV.png" alt="App Logo" width="40"/> Page Replacement Algorithm Visualizer
+# <img src="PRAV.png" alt="App Logo" width="40" target="_blank"/> Page Replacement Algorithm Visualizer
 
 A Windows desktop application built using **VB.NET and Windows Forms** to simulate and visualize how three classic **page replacement algorithms** work:  
 ✅ FIFO (First-In First-Out)  
