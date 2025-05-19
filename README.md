@@ -9,12 +9,6 @@ A Windows desktop application built using **VB.NET and Windows Forms** to simula
 
 ---
 
-## 📸 Demo
-
-<img src="screenshot.png" alt="App Screenshot" width="600"/>
-
----
-
 ## 🚀 Features
 
 - Enter or generate a random page reference string.
