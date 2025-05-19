@@ -39,26 +39,6 @@ A Windows desktop application built using **VB.NET and Windows Forms** to simula
 
 ---
 
-## 🧪 Sample Input
-
-- **Pages:** 7 0 1 2 0 3 0 4 2 3 0 3 2  
-- **Frames:** 3  
-
-The app will display visual steps and the total page faults for:
-- FIFO
-- LRU
-- Optimal
-
----
-
-## 📚 References
-
-- [Operating System Concepts – Silberschatz et al.](https://www.os-book.com/)
-- [FIFO, LRU, OPT Explained – GeeksforGeeks](https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/)
-- [YouTube: Page Replacement Algorithms](https://www.youtube.com/results?search_query=page+replacement+algorithms)
-
----
-
 ## 🧑‍💻 Author
 
 **Jacinto, Mark Lenar C.**  
