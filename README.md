@@ -5,7 +5,7 @@ A Windows desktop application built using **VB.NET and Windows Forms** to simula
 ✅ LRU (Least Recently Used)  
 ✅ Optimal Page Replacement
 
-<img src="PRAV.ico" alt="App Logo" width="200"/>
+<img src="PRAV.png" alt="App Logo" width="200"/>
 
 ---
 
