@@ -2,6 +2,7 @@
 ' It's designed with a GUI so that users can see the process of each method and how many page faults occur.
 
 Public Class Form1
+    Inherits System.Windows.Forms.Form
     ' Array to store the page reference string
     Dim pageReference() As Integer
 

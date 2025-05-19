@@ -203,7 +203,10 @@ Partial Class Form1
         Controls.Add(btnFIFO)
         Controls.Add(txtFrames)
         Controls.Add(txtPages)
+        FormBorderStyle = FormBorderStyle.FixedDialog
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        MaximizeBox = False
+        MdiChildrenMinimizedAnchorBottom = False
         Name = "Form1"
         Text = """FIFO vs LRU vs Optimal Page Replacement"""
         ResumeLayout(False)
