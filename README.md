@@ -1,11 +1,9 @@
-# 🧠 Page Replacement Algorithm Visualizer
+# <img src="PRAV.png" alt="App Logo" width="40"/> Page Replacement Algorithm Visualizer
 
 A Windows desktop application built using **VB.NET and Windows Forms** to simulate and visualize how three classic **page replacement algorithms** work:  
 ✅ FIFO (First-In First-Out)  
 ✅ LRU (Least Recently Used)  
 ✅ Optimal Page Replacement
-
-<img src="PRAV.png" alt="App Logo" width="200"/>
 
 ---
 
@@ -32,7 +30,7 @@ A Windows desktop application built using **VB.NET and Windows Forms** to simula
 
 ### ▶️ Running the App
 
-1. **Download the latest release** from the [Releases](https://github.com/yourusername/PageReplacementVisualizer/releases) section.
+1. **Download the latest release** (https://drive.google.com/drive/folders/1EIyTffw3dhsecIoEl79JjhB4VmIOD48d?usp=drive_link).
 2. Extract the `.zip` file.
 3. Open the folder and double-click on the `.exe` file to run the app.
 
@@ -66,9 +64,3 @@ The app will display visual steps and the total page faults for:
 **Jacinto, Mark Lenar C.**  
 📧 Contact: ml.jacinto00154@student.tsu.edu.ph
 🎓 Made for academic learning and demonstration.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
