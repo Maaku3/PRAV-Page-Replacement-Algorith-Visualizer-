@@ -30,7 +30,7 @@ A Windows desktop application built using **VB.NET and Windows Forms** to simula
 
 ### ▶️ Running the App
 
-1. **Download the latest release** (https://drive.google.com/drive/folders/1EIyTffw3dhsecIoEl79JjhB4VmIOD48d?usp=drive_link).
+1. <a href="https://drive.google.com/drive/folders/1EIyTffw3dhsecIoEl79JjhB4VmIOD48d?usp=drive_link" target="_blank" rel="noopener noreferrer"> **Download the latest release** </a>
 2. Extract the `.zip` file.
 3. Open the folder and double-click on the `.exe` file to run the app.
 
